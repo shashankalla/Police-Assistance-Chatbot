@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoothukudi Police Chatbot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- District Banner -->
+      <div class="district-banner">
+        <img src="thoothukudi.png" alt="Thoothukudi District Banner">
+    </div>
+
+     <!-- Badge at Top Left -->
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#helpline">Helpline</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Welcome Banner -->
+    <div class="welcome-banner">
+        <h1>Welcome to Thoothukudi District Police</h1>
+        <p>We are here to assist you. Ask us anything!</p>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div class="chat-container">
+        <div class="chat-header">
+            Thoothukudi Police Chatbot
+        </div>
+        <div id="chatBox" class="chat-box"></div>
+        <div id="chatContainer">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
